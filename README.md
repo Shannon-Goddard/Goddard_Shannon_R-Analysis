@@ -205,7 +205,10 @@ We can apply the following logic to determine the most appropriate statistical t
 - If the success metric is categorical, you may use a chi-squared test to compare the distribution of categorical values between both groups.   
 
 ## Challenge Overview  
-In this challenge, we performed a series of statistical tests and created a technical report that provides our interpretation of the findings.
+In this challenge, we performed a series of statistical tests and created a technical report that provides our interpretation of the findings.  
+
+[MechaCarWriteUp.txt](MechaCarWriteUp.txt)
+[MechaCarChallenge.R](MechaCarChallenge.R)
 
 ## Challenge Objectives  
 - Design and interpret a multiple linear regression analysis to identify variables of interest.
@@ -214,7 +217,7 @@ In this challenge, we performed a series of statistical tests and created a tech
 - Design your own statistical study to compare vehicle performance of two vehicles.  
 
 ## Challenge Summary  
-By combining our understanding of R and statistics with the manufacturing datasets provided:  
+We combined our understanding of R and statistics with the manufacturing datasets provided:  
 
 - [MechaCar_mpg.csv]()- The results of an mpg testing dataset of 50 potential prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were collected for each vehicle.
 - [Suspension_coil.csv]()- MechaCar suspension coil test results from multiple production lots. In this dataset, the weight capacity of multiple suspension coils were tested to determine if the manufacturing process is consistent across lots. 
@@ -222,28 +225,50 @@ By combining our understanding of R and statistics with the manufacturing datase
 We generated a robust technical report that can be used to justify design choices using quantitative and qualitative reasoning.  
 
 ### MPG Regression
-- Create a new RScript in your R source pane and save it to your active directory. Name this new RScript file MechaCarChallenge.RScript. (Hint: Create a new RScript by going to the File menu. Select “New File” followed by “RScript.” Or you can click the icon in the top-left corner of the RStudio window. Note that the icon looks like a white square with a plus sign in the top left corner.)
-- Download the MechaCar mpg dataset and place it in your active directory for your R session.
-- Using multiple linear regression, design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset. Create a separate text file called MechaCarWriteUp.txt. In the text file, provide a small writeup of your interpretation of the multiple linear regression results. Be sure to include the following details: 
+Using multiple linear regression, we designed a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.  
+<img align="left" width="250" src="/pics/mpg_vl_plot.png"><br/>  
+<img align="left" width="250" src="/pics/mpg_vw_plot.png"><br/>
+<img align="left" width="250" src="/pics/mpg_sa_plot.png"><br/>  
+<img align="left" width="250" src="/pics/mpg_gc_plot.png"><br/>
+<img align="left" width="250" src="/pics/mpg_awd_plot.png"><br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+
+We provide a small writeup of our interpretation of the multiple linear regression results in [MechaCarWriteUp.txt](MechaCarWriteUp.txt). Included are the following details: 
   - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   - Is the slope of the linear model considered to be zero? Why or why not?
   - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?  
   
 ### Suspension Coil Summary
-- Download the suspension coil test result dataset and place it in your active directory for your R session.
-- In the same MechaCarChallenge.RScript file, create a summary statistics table for the suspension coil’s pounds-per-inch continuous variable. 
-Be sure to include the following metrics: 
+In our RScript file, we created a summary statistics table for the suspension coil’s pounds-per-inch continuous variable, including the following metrics: 
   - Mean
   - Median
   - Variance
   - Standard deviation  
+
+<img align="left" width="250" src="/pics/MPG_mlr_model.png"><br/>
+<img align="left" width="250" src="/pics/MPG_stat_metrics.png"><br/>
+<img align="left" width="250" src="/pics/coil_summary_table.png"><br/>
   
-Using the same MechaCarWriteUp.txt text file, provide a short write-up of your interpretation and findings for the suspension coil summary statistics. Be sure to include the following details: 
+We provide a short write-up of our interpretation and findings for the suspension coil summary statistics in [MechaCarWriteUp.txt](MechaCarWriteUp.txt). Included are the following details: 
   - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?  
   
 ### Suspension Coil T-Test
-- Using the same suspension coil data and the MechaCarChallenge.RScript file, determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch. (Hint: Refer to the t-test section of this module to determine which statistical test to use.)
-- In the MechaCarWriteUp.txt text file, provide a small writeup of your interpretation and findings for the t-test results.  
+We determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch with statistical.  
+
+<img align="left" width="250" src="/pics/PSI_population_table.png"><br/>
+<img align="left" width="250" src="/pics/PSI_sample_table.png"><br/>
+<img align="left" width="250" src="/pics/PSI_One_Sample_t-test.png"><br/>
+<img align="left" width="250" src="/pics/PSI_Two_Sample_t-test.png"><br/>
+
+In the [MechaCarWriteUp.txt](MechaCarWriteUp.txt) text file, we provide a small writeup of our interpretation and findings for the t-test results.  
 
 ### Design Our Own Study
 Upper management is looking for your expertise and wants you to design a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market. In the MechaCarWriteUp.txt text file, write a short description of a statistical study that can quantify how the MechaCar outperforms the competition. In your study design, be sure to write about the following considerations:
