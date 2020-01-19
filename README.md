@@ -102,10 +102,12 @@ The dplyr library contains a wide variety of functions that can be chained toget
 When performing more involved data analytics and visualizations, there may be situations where the shape and design of our data frame is overcomplicated or incompatible with the libraries and functions we wish to use. The tidyr library from the tidyverse has the gather() and spread() functions to help reshape our data.  
 
 - **gather()** changes the dataset to a long format.  
-- **spread()** spreads out a variable column of multiple measurements into columns for each variable.
+- **spread()** spreads out a variable column of multiple measurements into columns for each variable.  
 
+**gather()**
 <img align="left" width="200" src="/pics/gather_function.png"><br/>  
 
+**spread()**
 <img align="left" width="500" src="/pics/spread_function.png"><br/>  
 <br/>
 <br/>
