@@ -132,7 +132,12 @@ When performing more involved data analytics and visualizations, there may be si
 <br/>
 <br/>
 <br/>
+<br/>
 <br/>  
+<br/>
+<br/>
+<br/>
+<br/> 
 
 ### Plot and identify distribution characteristics of a given dataset.  
 When it comes to data analysis, characterizing the distribution of numerical data is as important as characterizing the different data types.  
