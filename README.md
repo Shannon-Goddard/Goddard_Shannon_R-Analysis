@@ -234,13 +234,8 @@ Using multiple linear regression, we designed a linear model that predicts the m
 <br/>
 <br/>
 <br/>  
-<img align="left" width="250" src="/pics/mpg_gc_plot.png"><br/>  
-<img align="left" width="250" src="/pics/mpg_awd_plot.png"><br/>  
+<img align="left" width="250" src="/pics/mpg_gc_plot.png"><br/><img align="left" width="250" src="/pics/mpg_awd_plot.png"><br/>  
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>  
 <br/>
 <br/>
 <br/>
