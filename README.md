@@ -226,6 +226,7 @@ We generated a robust technical report that can be used to justify design choice
 
 ### MPG Regression
 Using multiple linear regression, we designed a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.  
+
 <img align="left" width="250" src="/pics/mpg_vl_plot.png"><br/>  
 <img align="left" width="250" src="/pics/mpg_vw_plot.png"><br/>
 <img align="left" width="250" src="/pics/mpg_sa_plot.png"><br/>  
@@ -257,11 +258,11 @@ In our RScript file, we created a summary statistics table for the suspension co
   - Median
   - Variance
   - Standard deviation  
-
-<img align="left" width="250" src="/pics/MPG_mlr_model.png"><br/>
-<img align="left" width="250" src="/pics/MPG_stat_metrics.png"><br/>
-<img align="left" width="250" src="/pics/coil_summary_table.png"><br/>  
-<br/>
+  
+  <img align="left" width="250" src="/pics/MPG_mlr_model.png"><br/>  
+  <img align="left" width="250" src="/pics/MPG_stat_metrics.png"><br/>  
+  <img align="left" width="250" src="/pics/coil_summary_table.png"><br/>  
+  <br/>
 <br/>
 <br/>
 <br/>  
