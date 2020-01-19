@@ -288,8 +288,8 @@ We determine if the suspension coil’s pound-per-inch results are statistically
 <br/>  
 <br/>
 <br/>
-<img align="left" width="500" src="/pics/PSI_One_Sample_t-test.png"><br/>  
-<img align="left" width="500" src="/pics/PSI_Two_Sample_t-test.png"><br/>  
+<img align="left" width="900" src="/pics/PSI_One_Sample_t-test.png"><br/>  
+<img align="left" width="900" src="/pics/PSI_Two_Sample_t-test.png"><br/>  
 <br/>
 <br/>
 <br/>
@@ -312,11 +312,6 @@ We determine if the suspension coil’s pound-per-inch results are statistically
 <br/>
 <br/>
 <br/>  
-<br/>
-<br/>
-<br/>  
-<br/>
-<br/>
 
 In the [MechaCarWriteUp.txt](MechaCarWriteUp.txt) text file, we provide a small writeup of our interpretation and findings for the t-test results.  
 
