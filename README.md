@@ -62,15 +62,15 @@ Raw data is often insufficient in telling the full story. Usually when we are an
 > library(tidyverse)
 
 #### Clean up  
-The dplyr library contains a wide variety of functions that can be chained together to transform data quickly and easily. By chaining functions together, the user does not need to assign intermediate vectors and tables. Instead, all of the data transformation can be performed in a single assignment function that is easy to read and interpret. A few examples include:
+The dplyr library contains a wide variety of functions that can be chained together to transform data quickly and easily. By chaining functions together, the user does not need to assign intermediate vectors and tables. Instead, all of the data transformation can be performed in a single assignment function that is easy to read and interpret.
 - **mutate()** transform a data frame and include new calculated data columns.  
 - **group_by()** tells dplyr which factor (or list of factors in order) to group our data frame by.  
 - **summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n()
 
 #### Reshape
 When performing more involved data analytics and visualizations, there may be situations where the shape and design of our data frame is overcomplicated or incompatible with the libraries and functions we wish to use. The tidyr library from the tidyverse has the gather() and spread() functions to help reshape our data.  
-- To change the dataset to a long format, we would use gather() to reshape the dataset.  
-- Alternatively, if we have data that was collected or obtained in a long format, we can use tidyr’s spread() function to spread out a variable column of multiple measurements into columns for each variable.
+- **gather()** changes the dataset to a long format.  
+- **spread()** spreads out a variable column of multiple measurements into columns for each variable.
 
 
 
