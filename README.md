@@ -9,9 +9,9 @@
 [Summary](#summary)  
 
 - [Load, clean up, and reshape datasets using tidyverse in R.](Load, clean up, and reshape datasets using tidyverse in R.)
-  - [Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.](Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.)
+- [Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.](Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.)
 - [Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.](Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.)
-  - [Plot and identify distribution characteristics of a given dataset.](Plot and identify distribution characteristics of a given dataset.)
+- [Plot and identify distribution characteristics of a given dataset.](Plot and identify distribution characteristics of a given dataset.)
 - [Formulate null and alternative hypothesis tests for a given data problem.](Formulate null and alternative hypothesis tests for a given data problem.)
 - [Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.](Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.)
 - [Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.](Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.)
