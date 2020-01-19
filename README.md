@@ -277,10 +277,19 @@ We provide a short write-up of our interpretation and findings for the suspensio
 ### Suspension Coil T-Test
 We determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch with statistical.  
 
-<img align="left" width="250" src="/pics/PSI_population_table.png"><br/>
-<img align="left" width="250" src="/pics/PSI_sample_table.png"><br/>
-<img align="left" width="250" src="/pics/PSI_One_Sample_t-test.png"><br/>
-<img align="left" width="250" src="/pics/PSI_Two_Sample_t-test.png"><br/>  
+<img align="left" width="500" src="/pics/PSI_population_table.png"><br/>  
+<img align="left" width="500" src="/pics/PSI_sample_table.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<img align="left" width="500" src="/pics/PSI_One_Sample_t-test.png"><br/>  
+<img align="left" width="500" src="/pics/PSI_Two_Sample_t-test.png"><br/>  
 <br/>
 <br/>
 <br/>
