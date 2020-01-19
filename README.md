@@ -110,10 +110,7 @@ The dplyr library contains a wide variety of functions that can be chained toget
 
 #### Reshape
 When performing more involved data analytics and visualizations, there may be situations where the shape and design of our data frame is overcomplicated or incompatible with the libraries and functions we wish to use. The tidyr library from the tidyverse has the gather() and spread() functions to help reshape our data.  
-<br/>
-<br/>
-<br/>
-<br/>
+<br/>  
 
 **gather()** changes the dataset to a long format.  
 > long_table <- gather(demo_table3,key="Metric",value="Score",buying_price:popularity)
@@ -130,6 +127,10 @@ When performing more involved data analytics and visualizations, there may be si
 <br/>
 <br/>
 <br/>  
+<br/>
+<br/>
+<br/>
+<br/> 
 
 ### Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.  
 <img align="left" width="250" src="/pics/.png"><br/>  
