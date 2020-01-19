@@ -104,10 +104,12 @@ When performing more involved data analytics and visualizations, there may be si
 - **gather()** changes the dataset to a long format.  
 - **spread()** spreads out a variable column of multiple measurements into columns for each variable.  
 
-**gather()**
+**gather()**  
+
 <img align="left" width="200" src="/pics/gather_function.png"><br/>  
 
-**spread()**
+**spread()**  
+
 <img align="left" width="500" src="/pics/spread_function.png"><br/>  
 <br/>
 <br/>
