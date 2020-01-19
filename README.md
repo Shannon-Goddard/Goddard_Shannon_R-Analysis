@@ -1,21 +1,156 @@
-# Goddard_Shannon_R-Analysis
+# Goddard_Shannon_R-Analysis  
+![Header](/pics/header.png)
 
-In this challenge, you’ll perform a series of statistical tests and create a technical report that provides your interpretation of the findings.  
+#### Table of Contents
 
-#### Background
-From the upper management team, Jeremy received two datasets:
-- The results of an mpg testing dataset of 50 potential prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were collected for each vehicle.
-- MechaCar suspension coil test results from multiple production lots. In this dataset, the weight capacity of multiple suspension coils were tested to determine if the manufacturing process is consistent across lots.  
+[Project Overview](#project-overview)  
+[Resources](#resources)  
+[Objectives](#objectives)  
+[Summary](#summary)  
+  - [Load, clean up, and reshape datasets using tidyverse in R.](Load, clean up, and reshape datasets using tidyverse in R.)
+  - [Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.](Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.)
+  - [Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.](Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.)
+  - [Plot and identify distribution characteristics of a given dataset.](Plot and identify distribution characteristics of a given dataset.)
+  - [Formulate null and alternative hypothesis tests for a given data problem.](Formulate null and alternative hypothesis tests for a given data problem.)
+  - [Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.](Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.)
+  - [Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.](Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.)
+  - [Implement and evaluate a chi-squared test for a given dataset.](Implement and evaluate a chi-squared test for a given dataset.)
+  - [Identify key characteristics of A/B and A/A testing.](Identify key characteristics of A/B and A/A testing.)
+  - [Determine the most appropriate statistical test for a given hypothesis and dataset.](Determine the most appropriate statistical test for a given hypothesis and dataset.)
+[Challenge Overview](#challenge-overview)  
+[Challenge Objectives](#challenge-objectives)Studio
+[Challenge Summary](#challenge-summary)  
+[Limitations](#limitations)
 
-By combining his understanding of R and statistics with the manufacturing datasets provided by the upper management, Jeremy should have all the materials he needs to generate a robust technical report. Technical reports such as the one Jeremy will design are common in product development and are used to justify design choices using quantitative and qualitative reasoning.  
+## Project Overview
+In R-Analysis, we applied our understanding of statistics and hypothesis testing to analyze a series of datasets from the automotive industry. Our analysis includes visualizations, statistical tests, and interpretation of the results. All of our statistical analysis and visualizations are written in the R programming language.  
+
+Throughout the module, we extract, transform, and load (ETL) data; visualize the data; and analyze the data using R. Additionally, we learned a variety of statistical tests, their real-world application in data science, and their implementation in R.  
+
+## Resources  
+- **Data Source:** [demo.csv](), [demo.json](), [demo2.csv](), [mpg_modified](), [used_car_data](), [Vehicle_Data](), [MechaCar_mpg.csv](), [Suspension_coil.csv]() 
+- **Software:** RStudio
 
 ## Objectives
-The goals of this challenge are for you to complete the following:
+- Load, clean up, and reshape datasets using tidyverse in R.
+- Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.
+- Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.
+- Plot and identify distribution characteristics of a given dataset.
+- Formulate null and alternative hypothesis tests for a given data problem.
+- Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.
+- Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.
+- Implement and evaluate a chi-squared test for a given dataset.
+- Identify key characteristics of A/B and A/A testing.
+- Determine the most appropriate statistical test for a given hypothesis and dataset.
+
+## Summary  
+#### Load, clean up, and reshape datasets using tidyverse in R.  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+#### Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+#### Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+#### Plot and identify distribution characteristics of a given dataset.  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+#### Formulate null and alternative hypothesis tests for a given data problem.  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+#### Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+#### Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+#### Implement and evaluate a chi-squared test for a given dataset.  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+#### Identify key characteristics of A/B and A/A testing.  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+#### Determine the most appropriate statistical test for a given hypothesis and dataset.
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>  
+<img align="left" width="250" src="/pics/.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+## Challenge Overview  
+In this challenge, we performed a series of statistical tests and created a technical report that provides our interpretation of the findings.
+
+## Challenge Objectives  
 - Design and interpret a multiple linear regression analysis to identify variables of interest.
 - Calculate summary statistics for quantitative variables.
 - Perform a t-test in R and provide interpretation of results.
-- Design your own statistical study to compare vehicle performance of two vehicles.
-#### Instructions
+- Design your own statistical study to compare vehicle performance of two vehicles.  
+
+## Challenge Summary  
+By combining our understanding of R and statistics with the manufacturing datasets provided:  
+
+- [MechaCar_mpg.csv]()- The results of an mpg testing dataset of 50 potential prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were collected for each vehicle.
+- [Suspension_coil.csv]()- MechaCar suspension coil test results from multiple production lots. In this dataset, the weight capacity of multiple suspension coils were tested to determine if the manufacturing process is consistent across lots. 
+
+We generated a robust technical report that can be used to justify design choices using quantitative and qualitative reasoning.  
+
 ### MPG Regression
 - Create a new RScript in your R source pane and save it to your active directory. Name this new RScript file MechaCarChallenge.RScript. (Hint: Create a new RScript by going to the File menu. Select “New File” followed by “RScript.” Or you can click the icon in the top-left corner of the RStudio window. Note that the icon looks like a white square with a plus sign in the top left corner.)
 - Download the MechaCar mpg dataset and place it in your active directory for your R session.
@@ -44,10 +179,12 @@ Using the same MechaCarWriteUp.txt text file, provide a short write-up of your i
 Upper management is looking for your expertise and wants you to design a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market. In the MechaCarWriteUp.txt text file, write a short description of a statistical study that can quantify how the MechaCar outperforms the competition. In your study design, be sure to write about the following considerations:
 - Think critically about what metrics you would think would be of interest to a consumer (cost, fuel efficiency, color options, etc.).
 - Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
-- Knowing what test should be used, what data should be collected? Hint: Look at the cheat sheet for required variables.  
+- Knowing what test should be used, what data should be collected? Hint: Look at the cheat sheet for required variables.
+
+## Limitations  
+R and most of R’s libraries are licensed as General Public License, version 2 (GPL 2). This means that if you program or model anything using R, GPL forces your application, program, or script to be open source.
 
 ## Submission
 Make sure your repo is up to date and includes the following:
 - A MechaCarChallenge.RScript file containing all of your R code for the technical report
 - A MechaCarWriteUp.txt text file, containing your interpretation and findings for each statistical analysis.
-Submit a link to your repository through Canvas.
