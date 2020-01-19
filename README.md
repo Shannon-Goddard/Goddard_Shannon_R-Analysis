@@ -61,12 +61,9 @@ Raw data is often insufficient in telling the full story. Usually when we are an
 > library(tidyverse)
 
 #### Clean up  
-The dplyr library contains a wide variety of functions that can be chained together to transform data quickly and easily. By chaining functions together, the user does not need to assign intermediate vectors and tables. Instead, all of the data transformation can be performed in a single assignment function that is easy to read and interpret.
-- **mutate()** transform a data frame and include new calculated data columns.  
-- **group_by()** tells dplyr which factor (or list of factors in order) to group our data frame by.  
-- **summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n().  
-  
-**mutate()**  
+The dplyr library contains a wide variety of functions that can be chained together to transform data quickly and easily. By chaining functions together, the user does not need to assign intermediate vectors and tables. Instead, all of the data transformation can be performed in a single assignment function that is easy to read and interpret.  
+
+**mutate()** transforms a data frame and include new calculated data columns.  
 > demo_table <- demo_table %>% mutate(Mileage_per_Year=Total_Miles/(2020-Year),IsActive=TRUE)
 <img align="left" width="500" src="/pics/mutate_function.png"><br/>  
 <br/>
@@ -74,7 +71,7 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>
 
-**group_by()**  
+**group_by()** tells dplyr which factor (or list of factors in order) to group our data frame by.  
 > summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer))
 <img align="left" width="300" src="/pics/group_by_function.png"><br/>  
 <br/>
@@ -82,7 +79,7 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>
 
-**summarize()**  
+**summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n().  
 > summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer),Maximum_Price=max(price),Num_Vehicles=n())
 <img align="left" width="500" src="/pics/summarize_function.png"><br/>
 <br/>
