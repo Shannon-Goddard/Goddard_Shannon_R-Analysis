@@ -119,21 +119,6 @@ When performing more involved data analytics and visualizations, there may be si
 <br/>
 <br/>  
 <br/>
-<br/>
-<br/>
-<br/>  
-<br/>
-<br/>
-<br/>
-<br/>  
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 ### Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.  
 <img align="left" width="250" src="/pics/line.png"><br/>  
