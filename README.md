@@ -185,7 +185,8 @@ There are two main forms of the t-test that we use: the one-sample t-test and th
 The **chi-squared test** is used to compare the distribution of frequencies across two groups and tests the following hypotheses:
 - H0 : There is no difference in frequency distribution between both groups.
 
-- Ha : There is a difference in frequency distribution between both groups
+- Ha : There is a difference in frequency distribution between both groups.  
+
 Before we can perform our chi-squared analysis, we must ensure that our dataset meets the assumptions of the statistical test:
 1. Each subject within a group contributes to only one frequency. In other words, the sum of all frequencies equals the total number of subjects in a dataset.
 2. Each unique value has an equal probability of being observed.
