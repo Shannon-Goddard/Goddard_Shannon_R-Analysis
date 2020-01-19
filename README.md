@@ -133,13 +133,48 @@ When performing more involved data analytics and visualizations, there may be si
 <br/> 
 
 ### Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.  
-<img align="left" width="250" src="/pics/.png"><br/>  
-<img align="left" width="250" src="/pics/.png"><br/>  
-<img align="left" width="250" src="/pics/.png"><br/>
+
+> mpg_summary <- subset(mpg,manufacturer=="toyota") %>% group_by(cyl) %>% summarize(Mean_Hwy=mean(hwy)) #create summary table
+> plt <- ggplot(mpg_summary,aes(x=cyl,y=Mean_Hwy)) #import dataset into ggplot2  
+> plt + geom_line()
+<img align="left" width="250" src="/pics/line.png"><br/>  
 <br/>
 <br/>
 <br/>
 <br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+
+> mpg_summary <- mpg %>% group_by(manufacturer) %>% summarize(Vehicle_Count=n()) #create summary table
+> plt <- ggplot(mpg_summary,aes(x=manufacturer,y=Vehicle_Count)) #import dataset into ggplot2
+> plt + geom_col() #plot a bar plot
+<img align="left" width="250" src="/pics/bar.png"><br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+
+> plt <- ggplot(mpg,aes(x=displ,y=cty,color=class)) #import dataset into ggplot2
+> plt + geom_point() + labs(x="Engine Size (L)", y="City Fuel-Efficiency (MPG)", color="Vehicle Class") #add scatter plot with labels
+<img align="left" width="250" src="/pics/scatter.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.  
 <img align="left" width="250" src="/pics/.png"><br/>  
