@@ -74,8 +74,6 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>  
 <br/>
-<br/>
-<br/>
 
 **group_by()**
 <img align="left" width="300" src="/pics/group_by_function.png"><br/>  
@@ -83,10 +81,6 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>
 <br/>  
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -99,6 +93,8 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>  
 <br/>
+<br/>
+<br/>  
 <br/>
 <br/>
 
