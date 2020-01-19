@@ -76,7 +76,7 @@ The dplyr library contains a wide variety of functions that can be chained toget
 
 **group_by()**  
 > summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer))
-<img align="left" width="500" src="/pics/group_by_function.png"><br/>  
+<img align="left" width="400" src="/pics/group_by_function.png"><br/>  
 <br/>
 <br/>
 <br/>
@@ -98,7 +98,7 @@ When performing more involved data analytics and visualizations, there may be si
 
 **gather()**  
 > long_table <- gather(demo_table3,key="Metric",value="Score",buying_price:popularity)
-<img align="left" width="500" src="/pics/gather_function.png"><br/>  
+<img align="left" width="200" src="/pics/gather_function.png"><br/>  
 <br/>
 <br/>
 <br/>
