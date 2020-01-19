@@ -16,7 +16,7 @@
 - [Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.](#Implement-and-evaluate-simple-linear-regression-and-multiple-linear-regression-models-for-a-given-dataset)  
 - [Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.](#Implement-and-evaluate-the-one-sample-t-Tests-two-sample-t-Tests-and-analysis-of-variance-ANOVA-models-for-a-given-dataset)  
 - [Implement and evaluate a chi-squared test for a given dataset.](#Implement-and-evaluate-a-chi-squared-test-for-a-given-dataset)  
-- [Identify key characteristics of A/B and A/A testing.](#Identify-key-characteristics-of-A-B-and-A-A-testing)  
+- [Identify key characteristics of A/B and A/A testing.](#Identify-key-characteristics-of-AB-and-AA-testing)  
 - [Determine the most appropriate statistical test for a given hypothesis and dataset.](#Determine-the-most-appropriate-statistical-test-for-a-given-hypothesis-and-dataset)  
 
 [Challenge Overview](#challenge-overview)  
