@@ -76,7 +76,7 @@ The dplyr library contains a wide variety of functions that can be chained toget
 
 **group_by()**  
 > summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer))
-<img align="left" width="400" src="/pics/group_by_function.png"><br/>  
+<img align="left" width="300" src="/pics/group_by_function.png"><br/>  
 <br/>
 <br/>
 <br/>
