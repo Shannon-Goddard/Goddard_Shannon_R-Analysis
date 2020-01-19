@@ -63,9 +63,9 @@ Raw data is often insufficient in telling the full story. Usually when we are an
 
 #### Clean up  
 The dplyr library contains a wide variety of functions that can be chained together to transform data quickly and easily. By chaining functions together, the user does not need to assign intermediate vectors and tables. Instead, all of the data transformation can be performed in a single assignment function that is easy to read and interpret. A few examples include:
-- **mutate()**- To transform a data frame and include new calculated data columns.  
-- **group_by()**- Tells dplyr which factor (or list of factors in order) to group our data frame by.  
-- **summarize()** Creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n()
+- **mutate()** transform a data frame and include new calculated data columns.  
+- **group_by()** tells dplyr which factor (or list of factors in order) to group our data frame by.  
+- **summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n()
 
 #### Reshape
 When performing more involved data analytics and visualizations, there may be situations where the shape and design of our data frame is overcomplicated or incompatible with the libraries and functions we wish to use. The tidyr library from the tidyverse has the gather() and spread() functions to help reshape our data.  
