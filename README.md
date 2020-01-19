@@ -91,7 +91,6 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>
 <br/>
-<br/>
 
 **summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n().  
 > summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer),Maximum_Price=max(price),Num_Vehicles=n())
