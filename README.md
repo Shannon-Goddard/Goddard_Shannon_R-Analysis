@@ -68,15 +68,15 @@ The dplyr library contains a wide variety of functions that can be chained toget
 - **summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n().  
   
 **mutate()**  
-> demo_table <- demo_table %>% mutate(Mileage_per_Year=Total_Miles/(2020-Year),IsActive=TRUE) #add columns to original data frame
+> demo_table <- demo_table %>% mutate(Mileage_per_Year=Total_Miles/(2020-Year),IsActive=TRUE)
 <img align="left" width="250" src="/pics/mutate_function.png"><br/>  
 
 **group_by()**  
-> summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer)) #create summary table
+> summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer))
 <img align="left" width="250" src="/pics/group_by_function.png"><br/>  
 
 **summarize()**  
-> summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer),Maximum_Price=max(price),Num_Vehicles=n()) #create summary table with multiple columns
+> summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer),Maximum_Price=max(price),Num_Vehicles=n())
 <img align="left" width="250" src="/pics/summarize_function.png"><br/>
 <br/>
 <br/>
@@ -89,10 +89,13 @@ When performing more involved data analytics and visualizations, there may be si
 - **spread()** spreads out a variable column of multiple measurements into columns for each variable.
 
 
+**gather()**  
+> long_table <- gather(demo_table3,key="Metric",value="Score",buying_price:popularity)
+<img align="left" width="250" src="/pics/gather_function.png"><br/>  
 
-<img align="left" width="250" src="/pics/.png"><br/>  
-<img align="left" width="250" src="/pics/.png"><br/>  
-<img align="left" width="250" src="/pics/.png"><br/>
+**spread()**  
+> wide_table <- long_table %>% spread(key="Metric",value="Score")
+<img align="left" width="250" src="/pics/spread_function.png"><br/>  
 <br/>
 <br/>
 <br/>
