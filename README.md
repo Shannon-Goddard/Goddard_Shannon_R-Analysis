@@ -84,6 +84,10 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 **summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n().  
 > summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer),Maximum_Price=max(price),Num_Vehicles=n())
@@ -96,14 +100,19 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 #### Reshape
 When performing more involved data analytics and visualizations, there may be situations where the shape and design of our data frame is overcomplicated or incompatible with the libraries and functions we wish to use. The tidyr library from the tidyverse has the gather() and spread() functions to help reshape our data.  
-- **gather()** changes the dataset to a long format.  
-- **spread()** spreads out a variable column of multiple measurements into columns for each variable.
+<br/>
+<br/>
+<br/>
+<br/>
 
-
-**gather()**  
+**gather()** changes the dataset to a long format.  
 > long_table <- gather(demo_table3,key="Metric",value="Score",buying_price:popularity)
 <img align="left" width="200" src="/pics/gather_function.png"><br/>  
 <br/>
@@ -111,7 +120,7 @@ When performing more involved data analytics and visualizations, there may be si
 <br/>
 <br/>
 
-**spread()**  
+**spread()** spreads out a variable column of multiple measurements into columns for each variable.  
 > wide_table <- long_table %>% spread(key="Metric",value="Score")
 <img align="left" width="500" src="/pics/spread_function.png"><br/>  
 <br/>
