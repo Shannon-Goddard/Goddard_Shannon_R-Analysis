@@ -67,6 +67,7 @@ The dplyr library contains a wide variety of functions that can be chained toget
 - **group_by()** tells dplyr which factor (or list of factors in order) to group our data frame by.  
 - **summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n().
 
+**mutate()**
 <img align="left" width="500" src="/pics/mutate_function.png"><br/>  
 <br/>
 <br/>
@@ -75,12 +76,8 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>  
 
+**group_by()**
 <img align="left" width="300" src="/pics/group_by_function.png"><br/>  
 <br/>
 <br/>
@@ -95,16 +92,12 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>  
 
+**summarize()**
 <img align="left" width="500" src="/pics/summarize_function.png"><br/>
 <br/>
 <br/>
 <br/>
 <br/>  
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
