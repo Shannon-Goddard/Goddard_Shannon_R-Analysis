@@ -228,14 +228,13 @@ We generated a robust technical report that can be used to justify design choice
 Using multiple linear regression, we designed a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.  
 
 <img align="left" width="250" src="/pics/mpg_vl_plot.png"><br/>  
-<img align="left" width="250" src="/pics/mpg_vw_plot.png"><br/>
+<img align="left" width="250" src="/pics/mpg_vw_plot.png"><br/>  
 <img align="left" width="250" src="/pics/mpg_sa_plot.png"><br/>  
 <br/>
 <br/>
 <br/>
 <br/>  
-
-<img align="left" width="250" src="/pics/mpg_gc_plot.png"><br/>
+<img align="left" width="250" src="/pics/mpg_gc_plot.png"><br/>  
 <img align="left" width="250" src="/pics/mpg_awd_plot.png"><br/>  
 <br/>
 <br/>
