@@ -22,6 +22,12 @@
 [Challenge Overview](#challenge-overview)  
 [Challenge Objectives](#challenge-objectives)  
 [Challenge Summary](#challenge-summary)  
+
+- [MPG Regression](#MPG-Regression)  
+- [Suspension Coil Summary](#Suspension-Coil-Summary)  
+- [Suspension Coil T-Test](#Suspension-Coil-T-Test)  
+- [Design Our Own Study](#Design-Our-Own-Study)  
+
 [Limitations](#limitations)
 
 ## Project Overview
@@ -177,7 +183,7 @@ Using the same MechaCarWriteUp.txt text file, provide a short write-up of your i
 - Using the same suspension coil data and the MechaCarChallenge.RScript file, determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch. (Hint: Refer to the t-test section of this module to determine which statistical test to use.)
 - In the MechaCarWriteUp.txt text file, provide a small writeup of your interpretation and findings for the t-test results.  
 
-### Design Your Own Study
+### Design Our Own Study
 Upper management is looking for your expertise and wants you to design a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market. In the MechaCarWriteUp.txt text file, write a short description of a statistical study that can quantify how the MechaCar outperforms the competition. In your study design, be sure to write about the following considerations:
 - Think critically about what metrics you would think would be of interest to a consumer (cost, fuel efficiency, color options, etc.).
 - Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
