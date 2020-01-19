@@ -207,7 +207,7 @@ We can apply the following logic to determine the most appropriate statistical t
 ## Challenge Overview  
 In this challenge, we performed a series of statistical tests and created a technical report that provides our interpretation of the findings.  
 
-[MechaCarWriteUp.txt](MechaCarWriteUp.txt)
+[MechaCarWriteUp.txt](MechaCarWriteUp.txt)  
 [MechaCarChallenge.R](MechaCarChallenge.R)
 
 ## Challenge Objectives  
@@ -234,7 +234,8 @@ Using multiple linear regression, we designed a linear model that predicts the m
 <br/>
 <br/>
 <br/>  
-<img align="left" width="250" src="/pics/mpg_gc_plot.png"><br/><img align="left" width="250" src="/pics/mpg_awd_plot.png"><br/>  
+<img align="left" width="250" src="/pics/mpg_gc_plot.png"><br/>  
+<img align="left" width="250" src="/pics/mpg_awd_plot.png"><br/>  
 <br/>
 <br/>
 <br/>
