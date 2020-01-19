@@ -271,7 +271,7 @@ We provide a short write-up of our interpretation and findings for the suspensio
   - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?  
   
 ### Suspension Coil T-Test
-We determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch with statistical.  
+We determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch with statistical test.  
 
 <img align="left" width="400" src="/pics/PSI_population_table.png"><br/>  
 <img align="left" width="400" src="/pics/PSI_sample_table.png"><br/>
