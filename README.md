@@ -229,6 +229,11 @@ Using multiple linear regression, we designed a linear model that predicts the m
 <img align="left" width="250" src="/pics/mpg_vl_plot.png"><br/>  
 <img align="left" width="250" src="/pics/mpg_vw_plot.png"><br/>
 <img align="left" width="250" src="/pics/mpg_sa_plot.png"><br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+
 <img align="left" width="250" src="/pics/mpg_gc_plot.png"><br/>
 <img align="left" width="250" src="/pics/mpg_awd_plot.png"><br/>  
 <br/>
@@ -255,7 +260,16 @@ In our RScript file, we created a summary statistics table for the suspension co
 
 <img align="left" width="250" src="/pics/MPG_mlr_model.png"><br/>
 <img align="left" width="250" src="/pics/MPG_stat_metrics.png"><br/>
-<img align="left" width="250" src="/pics/coil_summary_table.png"><br/>
+<img align="left" width="250" src="/pics/coil_summary_table.png"><br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
   
 We provide a short write-up of our interpretation and findings for the suspension coil summary statistics in [MechaCarWriteUp.txt](MechaCarWriteUp.txt). Included are the following details: 
   - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?  
@@ -266,7 +280,16 @@ We determine if the suspension coil’s pound-per-inch results are statistically
 <img align="left" width="250" src="/pics/PSI_population_table.png"><br/>
 <img align="left" width="250" src="/pics/PSI_sample_table.png"><br/>
 <img align="left" width="250" src="/pics/PSI_One_Sample_t-test.png"><br/>
-<img align="left" width="250" src="/pics/PSI_Two_Sample_t-test.png"><br/>
+<img align="left" width="250" src="/pics/PSI_Two_Sample_t-test.png"><br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
 
 In the [MechaCarWriteUp.txt](MechaCarWriteUp.txt) text file, we provide a small writeup of our interpretation and findings for the t-test results.  
 
