@@ -62,38 +62,15 @@ Raw data is often insufficient in telling the full story. Usually when we are an
 
 #### Clean up  
 The dplyr library contains a wide variety of functions that can be chained together to transform data quickly and easily. By chaining functions together, the user does not need to assign intermediate vectors and tables. Instead, all of the data transformation can be performed in a single assignment function that is easy to read and interpret.  
-<br/>
-<br/>  
 
-**mutate()** transforms a data frame and include new calculated data columns.  
-> demo_table <- demo_table %>% mutate(Mileage_per_Year=Total_Miles/(2020-Year),IsActive=TRUE)
+- **mutate()** transforms a data frame and include new calculated data columns.  
+- **group_by()** tells dplyr which factor (or list of factors in order) to group our data frame by.  
+- **summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n().
+
 <img align="left" width="500" src="/pics/mutate_function.png"><br/>  
-<br/>
-<br/>
-<br/>
-<br/>  
-<br/>
-<br/>
-<br/>
-<br/>
 
-**group_by()** tells dplyr which factor (or list of factors in order) to group our data frame by.  
-> summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer))
 <img align="left" width="300" src="/pics/group_by_function.png"><br/>  
-<br/>
-<br/>
-<br/>
-<br/>  
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
-**summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n().  
-> summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer),Maximum_Price=max(price),Num_Vehicles=n())
 <img align="left" width="500" src="/pics/summarize_function.png"><br/>
 <br/>
 <br/>
@@ -110,18 +87,12 @@ The dplyr library contains a wide variety of functions that can be chained toget
 
 #### Reshape
 When performing more involved data analytics and visualizations, there may be situations where the shape and design of our data frame is overcomplicated or incompatible with the libraries and functions we wish to use. The tidyr library from the tidyverse has the gather() and spread() functions to help reshape our data.  
-<br/>  
 
-**gather()** changes the dataset to a long format.  
-> long_table <- gather(demo_table3,key="Metric",value="Score",buying_price:popularity)
+- **gather()** changes the dataset to a long format.  
+- **spread()** spreads out a variable column of multiple measurements into columns for each variable.
+
 <img align="left" width="200" src="/pics/gather_function.png"><br/>  
-<br/>
-<br/>
-<br/>
-<br/>
 
-**spread()** spreads out a variable column of multiple measurements into columns for each variable.  
-> wide_table <- long_table %>% spread(key="Metric",value="Score")
 <img align="left" width="500" src="/pics/spread_function.png"><br/>  
 <br/>
 <br/>
