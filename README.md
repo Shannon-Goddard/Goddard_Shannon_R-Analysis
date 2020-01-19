@@ -18,7 +18,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 
 ## Resources  
 - **Data Source:** [demo.csv](), [demo.json](), [demo2.csv](), [mpg_modified](), [used_car_data](), [Vehicle_Data](), [MechaCar_mpg.csv](), [Suspension_coil.csv]() 
-- **Software:** RStudio
+- **Software:** R, RStudio, Rtools
 
 ## Objectives
 - Load, clean up, and reshape datasets using tidyverse in R.
@@ -283,8 +283,7 @@ We determine if the suspension coil’s pound-per-inch results are statistically
 <br/>  
 <br/>
 <br/>
-<img align="left" width="900" src="/pics/PSI_One_Sample_t-test.png"><br/>  
-<img align="left" width="900" src="/pics/PSI_Two_Sample_t-test.png"><br/>  
+<img align="left" width="900" src="/pics/PSI_One_Sample_t-test.png"><br/><img align="left" width="900" src="/pics/PSI_Two_Sample_t-test.png"><br/>  
 <br/>
 <br/>
 <br/>
@@ -298,14 +297,6 @@ We determine if the suspension coil’s pound-per-inch results are statistically
 <br/>
 <br/>
 <br/>  
-<br/>
-<br/>
-<br/>  
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>  
 
 In the [MechaCarWriteUp.txt](MechaCarWriteUp.txt) text file, we provide a small writeup of our interpretation and findings for the t-test results.  
