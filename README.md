@@ -76,10 +76,6 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 **group_by()** tells dplyr which factor (or list of factors in order) to group our data frame by.  
 > summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer))
