@@ -52,7 +52,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 - Determine the most appropriate statistical test for a given hypothesis and dataset.
 
 ## Summary  
-#### Load, clean up, and reshape datasets using tidyverse in R.  
+### Load, clean up, and reshape datasets using tidyverse in R.  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
@@ -61,7 +61,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 <br/>
 <br/>  
 
-#### Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.  
+### Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
@@ -70,7 +70,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 <br/>
 <br/>  
 
-#### Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.  
+### Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
@@ -79,7 +79,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 <br/>
 <br/>  
 
-#### Plot and identify distribution characteristics of a given dataset.  
+### Plot and identify distribution characteristics of a given dataset.  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
@@ -88,7 +88,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 <br/>
 <br/>  
 
-#### Formulate null and alternative hypothesis tests for a given data problem.  
+### Formulate null and alternative hypothesis tests for a given data problem.  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
@@ -97,7 +97,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 <br/>
 <br/>  
 
-#### Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.  
+### Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
@@ -106,7 +106,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 <br/>
 <br/>  
 
-#### Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.  
+### Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
@@ -115,7 +115,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 <br/>
 <br/>  
 
-#### Implement and evaluate a chi-squared test for a given dataset.  
+### Implement and evaluate a chi-squared test for a given dataset.  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
@@ -124,7 +124,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 <br/>
 <br/>  
 
-#### Identify key characteristics of A/B and A/A testing.  
+### Identify key characteristics of A/B and A/A testing.  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
@@ -133,7 +133,7 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 <br/>
 <br/>  
 
-#### Determine the most appropriate statistical test for a given hypothesis and dataset.
+### Determine the most appropriate statistical test for a given hypothesis and dataset.
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
