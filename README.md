@@ -68,8 +68,32 @@ The dplyr library contains a wide variety of functions that can be chained toget
 - **summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n().
 
 <img align="left" width="500" src="/pics/mutate_function.png"><br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>  
 
 <img align="left" width="300" src="/pics/group_by_function.png"><br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>  
 
 <img align="left" width="500" src="/pics/summarize_function.png"><br/>
 <br/>
@@ -101,7 +125,19 @@ When performing more involved data analytics and visualizations, there may be si
 <br/>
 <br/>
 <br/>
-<br/> 
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.  
 <img align="left" width="250" src="/pics/line.png"><br/>  
