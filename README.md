@@ -53,6 +53,27 @@ Throughout the module, we extract, transform, and load (ETL) data; visualize the
 
 ## Summary  
 ### Load, clean up, and reshape datasets using tidyverse in R.  
+The **tidyverse** package contains libraries such as dplyr, tidyr, and ggplot2. These packages work together to help simplify the process of creating transformed data columns, grouping data using factors, reshaping our two-dimensional data structures, and visualizing our results using plots.  
+#### Load  
+To install the tidyverse in our R environment, run the following command in the R console:  
+> install.packages("tidyverse")  
+
+Raw data is often insufficient in telling the full story. Usually when we are analyzing data, we want to perform calculations and incorporate the calculations back into the raw data to ease in downstream analysis. Tidyverse’s dplyr library transforms R data.  
+> library(tidyverse)
+
+#### Clean up  
+The dplyr library contains a wide variety of functions that can be chained together to transform data quickly and easily. By chaining functions together, the user does not need to assign intermediate vectors and tables. Instead, all of the data transformation can be performed in a single assignment function that is easy to read and interpret. A few examples include:
+- **mutate()**- To transform a data frame and include new calculated data columns.  
+- **group_by()**- Tells dplyr which factor (or list of factors in order) to group our data frame by.  
+- **summarize()** Creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n()
+
+#### Reshape
+When performing more involved data analytics and visualizations, there may be situations where the shape and design of our data frame is overcomplicated or incompatible with the libraries and functions we wish to use. The tidyr library from the tidyverse has the gather() and spread() functions to help reshape our data.  
+- To change the dataset to a long format, we would use gather() to reshape the dataset.  
+- Alternatively, if we have data that was collected or obtained in a long format, we can use tidyr’s spread() function to spread out a variable column of multiple measurements into columns for each variable.
+
+
+
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>  
 <img align="left" width="250" src="/pics/.png"><br/>
