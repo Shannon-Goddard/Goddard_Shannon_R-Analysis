@@ -62,6 +62,8 @@ Raw data is often insufficient in telling the full story. Usually when we are an
 
 #### Clean up  
 The dplyr library contains a wide variety of functions that can be chained together to transform data quickly and easily. By chaining functions together, the user does not need to assign intermediate vectors and tables. Instead, all of the data transformation can be performed in a single assignment function that is easy to read and interpret.  
+<br/>
+<br/>  
 
 **mutate()** transforms a data frame and include new calculated data columns.  
 > demo_table <- demo_table %>% mutate(Mileage_per_Year=Total_Miles/(2020-Year),IsActive=TRUE)
@@ -77,11 +79,19 @@ The dplyr library contains a wide variety of functions that can be chained toget
 <br/>
 <br/>
 <br/>
+<br/>  
+<br/>
+<br/>
+<br/>
 <br/>
 
 **summarize()** creates columns in our summary data frame and will use statistics summary functions such as mean(), median(), sd(), min(), max(), and n().  
 > summarize_demo <- demo_table2 %>% group_by(condition) %>% summarize(Mean_Mileage=mean(odometer),Maximum_Price=max(price),Num_Vehicles=n())
 <img align="left" width="500" src="/pics/summarize_function.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
 <br/>
 <br/>
 <br/>
