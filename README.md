@@ -20,7 +20,7 @@
 - [Determine the most appropriate statistical test for a given hypothesis and dataset.](Determine the most appropriate statistical test for a given hypothesis and dataset.)  
 
 [Challenge Overview](#challenge-overview)  
-[Challenge Objectives](#challenge-objectives)Studio
+[Challenge Objectives](#challenge-objectives)  
 [Challenge Summary](#challenge-summary)  
 [Limitations](#limitations)
 
