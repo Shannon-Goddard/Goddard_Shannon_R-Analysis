@@ -1,6 +1,6 @@
 # MechaCar Technical Report
 
-AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles. There are a number of issues surrounding the vehicle’s specifications and manufacturing process that are blocking the manufacturing team from proceeding. We performed a series of statistical tests on the production data in order to justify some last-minute design decision.
+**AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles. There are a number of issues surrounding the vehicle’s specifications and manufacturing process that are blocking the manufacturing team from proceeding. We performed a series of statistical tests on the production data in order to justify some last-minute design decision.**
 
 We combined our understanding of R and statistics with the manufacturing datasets provided:  
 
@@ -10,7 +10,7 @@ We combined our understanding of R and statistics with the manufacturing dataset
 We generated a robust technical report that can be used to justify design choices using quantitative and qualitative reasoning.  
 
 ### MPG Regression
-** We used multiple linear regression to design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.** 
+**We used multiple linear regression to design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.** 
 Variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset:
 - Vehicle Length
 - Vehicle Height
@@ -38,8 +38,8 @@ Using our visualization in combination with our calculated p-value and r-squared
 
 This linear model does **not** predict mpg of MechaCar prototypes effectively. After reviewing our findings, we could be more effective by not including non-substancial metrics in our statistical test.  
   
-### Suspension Coil Summary
-In our RScript file, we created a summary statistics table for the suspension coil’s pounds-per-inch continuous variable, including the following metrics: 
+## Suspension Coil Summary
+**In our RScript file, we created a summary statistics table for the suspension coil’s pounds-per-inch continuous variable, including the following metrics:** 
   - Mean
   - Median
   - Variance
@@ -60,8 +60,8 @@ In our RScript file, we created a summary statistics table for the suspension co
   
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Our coil_summary_table shows that the current manufacturing data meets this design specification with a variance of 62.29356. 
   
-### Suspension Coil T-Test
-Using the same suspension coil data and the MechaCarChallenge.RScript file, We determined that the suspension coil’s pound-per-inch results are **not** statistically different from the mean population results of 1,500 pounds per inch 
+## Suspension Coil T-Test
+Using the same suspension coil data and the MechaCarChallenge.RScript file, We determined that the suspension coil’s pound-per-inch results are **not** statistically different from the mean population results of 1,500 pounds per inch. 
 
 <img align="left" width="400" src="/pics/PSI_population_table.png"><br/>  
 <img align="left" width="400" src="/pics/PSI_sample_table.png"><br/>
@@ -92,8 +92,8 @@ Using the same suspension coil data and the MechaCarChallenge.RScript file, We d
 
   
 
-### Design Our Own Study
-We designed a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market. A statistical study that can quantify how the MechaCar outperforms the competition. In our study design, we considered the following:  
+## Design Our Own Study
+**We designed a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market. A statistical study that can quantify how the MechaCar outperforms the competition. In our study design, we considered the following:**  
 
 - Metrics that would be of interest to a consumer
 - Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis.
@@ -101,7 +101,7 @@ We designed a study that compares the performance of the MechaCar prototype vehi
  
 Many companies are capturing and analyzing data to increase thier opportunity for growth. Customer satisfaction surveys, units sold, service repair information, and a variety of many other metrics are typically obtained. Collecting this data is excellent and leads to the ability to make more informed decisions. However, when using data to make informed decisions in a professional environment, implementing a statistics function is not the biggest challenge. Rather, it’s determining what questions to ask.  
 
-**What metrics would be of interest to a consumer (cost, fuel efficiency, color options, etc.)?**  
+### What metrics would be of interest to a consumer (cost, fuel efficiency, color options, etc.)?**  
 There are tons, but we are going to narrow it down to three that MechaCar would benefit from taking a look at.  
 - Color  
 - In-Car Technology  
@@ -124,4 +124,8 @@ Consumer want to feel like they got a deal. Cost is our last metric to study. Me
 - pair t-test  
 - Heatmap
   
-The two-sample t-test will be used to compare two samples from a single population dataset. We would perform a two-sample t-test on each assumed comparable vehicle. Data that seems reliable from these results will provide us with the list of vehicles to continue with a pair t-test, because we pair observations in one dataset with observations in another. We would use the pair t-test to compare cost of a MechaCar across the list of comparable vehicles. If the difference between our paired observations (the true mean difference, or “μd”) is equal to zero, then that comparable vehicle will go on into our heatmap plot. Heatmap plots help visualize the relationship between one continuous numerical variable and two other variables (categorical or numerical). Heatmaps display numerical values as colors on a two-dimensional grid so that value clusters and trends are readily identifiable. We can visualize the average cost of comparable vehicles across the type of vehicle class from 2010 to 2020.
+The two-sample t-test will be used to compare two samples from a single population dataset. We would perform a two-sample t-test on each assumed comparable vehicle. Data that seems reliable from these results will provide us with the list of vehicles to continue with a pair t-test, because we would pair observations in one dataset with observations in another.  
+
+We would use the pair t-test to compare cost of a MechaCar across the list of comparable vehicles. If the difference between our paired observations (the true mean difference, or “μd”) is equal to zero, then that comparable vehicle will go on into our heatmap plot.  
+
+Heatmap plots help visualize the relationship between one continuous numerical variable and two other variables (categorical or numerical). Heatmaps display numerical values as colors on a two-dimensional grid so that value clusters and trends are readily identifiable. We can visualize the average cost of comparable vehicles across the type of vehicle class from 2010 to 2020.
