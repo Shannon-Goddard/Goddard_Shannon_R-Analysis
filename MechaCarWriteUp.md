@@ -34,7 +34,7 @@ Variables/coefficients that provided a non-random amount of variance to the mpg 
 <br/>
 <br/>  
 
-AWD has no significant linear relationship, the dependent value is determined by random chance and error. Therefore, the linear model is a flat line with a slope of 0.  
+**AWD** has no significant linear relationship, the dependent value is determined by random chance and error. Therefore, the linear model is a flat line with a slope of 0.  
 
 Using our visualization in combination with our calculated p-value and r-squared value, we have determined that there is a significant relationship between **mpg** and **vehicle_length**, as well as, **mpg** and **ground_clearance.**  
 
@@ -47,20 +47,9 @@ This linear model does **not** predict mpg of MechaCar prototypes effectively. A
   - Variance
   - Standard deviation  
   
-  <img align="left" width="250" src="/pics/MPG_mlr_model.png"><br/>  
-  <img align="left" width="250" src="/pics/MPG_stat_metrics.png"><br/>  
-  <img align="left" width="250" src="/pics/coil_summary_table.png"><br/>  
-  <br/>
-<br/>
-<br/>
-<br/>  
-<br/>
-<br/>
-<br/>  
-<br/>
-<br/>
+  !()["/pics/coil_summary_table.png"]  
   
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Our coil_summary_table shows that the current manufacturing data meets this design specification with a variance of 62.29356. 
+  The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Our coil_summary_table shows that the current manufacturing data meets this design specification with a variance of 62.29356. 
   
 ## Suspension Coil T-Test
 Using the same suspension coil data and the MechaCarChallenge.RScript file, We determined that the suspension coil’s pound-per-inch results are **not** statistically different from the mean population results of 1,500 pounds per inch. 
