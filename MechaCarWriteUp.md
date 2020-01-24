@@ -4,13 +4,15 @@
 
 We combined our understanding of R and statistics with the manufacturing datasets provided:  
 
-- [MechaCar_mpg.csv]()- The results of an mpg testing dataset of 50 potential prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were collected for each vehicle.
+- [MechaCar_mpg.csv]()- The results of an mpg testing dataset of 50 potential prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were collected for each vehicle.  
+
 - [Suspension_coil.csv]()- MechaCar suspension coil test results from multiple production lots. In this dataset, the weight capacity of multiple suspension coils were tested to determine if the manufacturing process is consistent across lots. 
 
 We generated a robust technical report that can be used to justify design choices using quantitative and qualitative reasoning.  
 
 ### MPG Regression
-**We used multiple linear regression to design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.** 
+**We used multiple linear regression to design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.**  
+
 Variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset:
 - Vehicle Length
 - Vehicle Height
