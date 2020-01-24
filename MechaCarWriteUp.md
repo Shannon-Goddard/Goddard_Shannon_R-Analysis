@@ -3,7 +3,7 @@
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles. There are a number of issues surrounding the vehicle’s specifications and manufacturing process that are blocking the manufacturing team from proceeding. We performed a series of statistical tests on the production data in order to justify some last-minute design decision.
 
 ### MPG Regression
-** We used multiple linear regression to design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.** 
+**We used multiple linear regression to design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.** 
 Variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset:
 - Vehicle Length
 - Vehicle Height
@@ -17,7 +17,7 @@ Using our visualization in combination with our calculated p-value and r-squared
 This linear model does **not** predict mpg of MechaCar prototypes effectively. After reviewing our findings, we could be more effective by not including non-substancial metrics in our statistical test.
 
 ### Suspension Coil Summary  
-** We created a summary statistics table for the suspension coil’s pounds-per-inch continuous variable.** 
+**We created a summary statistics table for the suspension coil’s pounds-per-inch continuous variable.** 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Our coil_summary_table shows that the current manufacturing data meets this design specification with a variance of 62.29356.
 
 ### Suspension Coil T-Test  
