@@ -207,7 +207,7 @@ We can apply the following logic to determine the most appropriate statistical t
 ## Challenge Overview  
 In this challenge, we performed a series of statistical tests and created a technical report that provides our interpretation of the findings.  
 
-[MechaCarWriteUp.txt](MechaCarWriteUp.txt)  
+[MechaCarWriteUp.txt](/MechaCarWriteUp.md)  
 [MechaCarChallenge.R](MechaCarChallenge.R)
 
 ## Challenge Objectives  
