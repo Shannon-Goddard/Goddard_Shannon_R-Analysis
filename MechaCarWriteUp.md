@@ -75,7 +75,7 @@ Using the same suspension coil data and the MechaCarChallenge.RScript file, We d
  
 Many companies are capturing and analyzing data to increase thier opportunity for growth. Customer satisfaction surveys, units sold, service repair information, and a variety of many other metrics are typically obtained. Collecting this data is excellent and leads to the ability to make more informed decisions. However, when using data to make informed decisions in a professional environment, implementing a statistics function is not the biggest challenge. Rather, it’s determining what questions to ask.  
 
-### What metrics would be of interest to a consumer (cost, fuel efficiency, color options, etc.)?**  
+### What metrics would be of interest to a consumer (cost, fuel efficiency, color options, etc.)?  
 There are tons, but we are going to narrow it down to three that MechaCar would benefit from taking a look at.  
 - Color  
 - In-Car Technology  
