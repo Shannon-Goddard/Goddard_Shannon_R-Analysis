@@ -217,7 +217,7 @@ In this challenge, we performed a series of statistical tests and created a tech
 - Design your own statistical study to compare vehicle performance of two vehicles.  
 
 ## Challenge Summary  
-# MechaCar Technical Report
+[MechaCar Technical Report](/MechaCarWriteUp.md)
 
 **AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles. There are a number of issues surrounding the vehicle’s specifications and manufacturing process that are blocking the manufacturing team from proceeding. We performed a series of statistical tests on the production data in order to justify some last-minute design decision.**
 
