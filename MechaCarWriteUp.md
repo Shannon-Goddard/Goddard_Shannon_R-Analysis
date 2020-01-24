@@ -2,28 +2,97 @@
 
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles. There are a number of issues surrounding the vehicle’s specifications and manufacturing process that are blocking the manufacturing team from proceeding. We performed a series of statistical tests on the production data in order to justify some last-minute design decision.
 
+We combined our understanding of R and statistics with the manufacturing datasets provided:  
+
+- [MechaCar_mpg.csv]()- The results of an mpg testing dataset of 50 potential prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were collected for each vehicle.
+- [Suspension_coil.csv]()- MechaCar suspension coil test results from multiple production lots. In this dataset, the weight capacity of multiple suspension coils were tested to determine if the manufacturing process is consistent across lots. 
+
+We generated a robust technical report that can be used to justify design choices using quantitative and qualitative reasoning.  
+
 ### MPG Regression
-**We used multiple linear regression to design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.** 
+** We used multiple linear regression to design a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.** 
 Variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset:
 - Vehicle Length
 - Vehicle Height
 - Spoiler Angle
-- Ground Clearance  
-  
+- Ground Clearance   
+
+<img align="left" width="250" src="/pics/mpg_vl_plot.png"><br/>  
+<img align="left" width="250" src="/pics/mpg_vw_plot.png"><br/>  
+<img align="left" width="250" src="/pics/mpg_sa_plot.png"><br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+<img align="left" width="250" src="/pics/mpg_gc_plot.png"><br/>  
+<img align="left" width="250" src="/pics/mpg_awd_plot.png"><br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
 AWD has no significant linear relationship, the dependent value is determined by random chance and error. Therefore, the linear model is a flat line with a slope of 0.  
 
 Using our visualization in combination with our calculated p-value and r-squared value, we have determined that there is a significant relationship between **mpg** and **vehicle_length**, as well as, **mpg** and **ground_clearance.**  
 
-This linear model does **not** predict mpg of MechaCar prototypes effectively. After reviewing our findings, we could be more effective by not including non-substancial metrics in our statistical test.
+This linear model does **not** predict mpg of MechaCar prototypes effectively. After reviewing our findings, we could be more effective by not including non-substancial metrics in our statistical test.  
+  
+### Suspension Coil Summary
+In our RScript file, we created a summary statistics table for the suspension coil’s pounds-per-inch continuous variable, including the following metrics: 
+  - Mean
+  - Median
+  - Variance
+  - Standard deviation  
+  
+  <img align="left" width="250" src="/pics/MPG_mlr_model.png"><br/>  
+  <img align="left" width="250" src="/pics/MPG_stat_metrics.png"><br/>  
+  <img align="left" width="250" src="/pics/coil_summary_table.png"><br/>  
+  <br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+  
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Our coil_summary_table shows that the current manufacturing data meets this design specification with a variance of 62.29356. 
+  
+### Suspension Coil T-Test
+Using the same suspension coil data and the MechaCarChallenge.RScript file, We determined that the suspension coil’s pound-per-inch results are **not** statistically different from the mean population results of 1,500 pounds per inch 
 
-### Suspension Coil Summary  
-**We created a summary statistics table for the suspension coil’s pounds-per-inch continuous variable.** 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Our coil_summary_table shows that the current manufacturing data meets this design specification with a variance of 62.29356.
+<img align="left" width="400" src="/pics/PSI_population_table.png"><br/>  
+<img align="left" width="400" src="/pics/PSI_sample_table.png"><br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<img align="left" width="900" src="/pics/PSI_One_Sample_t-test.png"><br/><img align="left" width="900" src="/pics/PSI_Two_Sample_t-test.png"><br/>  
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>  
 
-### Suspension Coil T-Test  
-Using the same suspension coil data and the MechaCarChallenge.RScript file, We determined that the suspension coil’s pound-per-inch results are **not** statistically different from the mean population results of 1,500 pounds per inch
+  
 
-### Design Your Own Study
+### Design Our Own Study
 We designed a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market. A statistical study that can quantify how the MechaCar outperforms the competition. In our study design, we considered the following:  
 
 - Metrics that would be of interest to a consumer
